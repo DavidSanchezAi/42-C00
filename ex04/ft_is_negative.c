@@ -6,13 +6,13 @@
 /*   By: dasanche <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/28 13:16:16 by dasanche          #+#    #+#             */
-/*   Updated: 2021/06/28 13:28:03 by dasanche         ###   ########.fr       */
+/*   Updated: 2021/07/05 10:01:02 by dasanche         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.io>
+#include <unistd.h>
 
-void ft_is_negative(int n)
+void	ft_is_negative(int n)
 {
 	if (n < 0)
 		write (1, 'N', 1);
